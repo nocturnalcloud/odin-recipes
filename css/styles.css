@@ -2,22 +2,43 @@
     margin: 0 auto;
     width: 500px;
     height: 550px;
-    background-color: pink;
+    background-color: palevioletred;
     
 }
 
-#strawberry {
-    background-image: url();
+.muted {
+  background-color: rgb(126 91 108 / 50%);;
+  background-blend-mode: saturation;
+  background-size: cover;
 }
 
+#strawberry {
+    
+    background-image: url("https://www.allrecipes.com/thmb/uKtfuWTcgVBmN0cbSw8x63uEUdU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1322171-4196e737a3934a75bc0e8687524b1a7e.jpg");
+    
+}
+
+#wrap {
+    background-image: url("https://www.allrecipes.com/thmb/QVZpmKv_LKatbcGeetVuUHS4-VQ=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/58246-make-ahead-lunch-wraps-DDMFS-beauty-4x3-45398122cc6e4607b9f438a1c174f857.jpg");
+
+}
+
+#pasta {
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F960901.jpg&q=60&c=sc&poi=auto&orient=true&h=512");
+    background-position: bottom;
+
+}
 h1 {
+    color: whitesmoke;
     text-align: center;
-    background-color: lightcyan;
+    background-color: lightpink;
     padding: 20px;
     margin: 0;
+    border: 3px palevioletred solid;
 }
 
 li {
+    
     text-align: center;
     width: 480px;
     list-style: none;
@@ -25,6 +46,13 @@ li {
     padding: 60px 0px;
     background-color: lightgoldenrodyellow;
 
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
 }
 
 ul {
