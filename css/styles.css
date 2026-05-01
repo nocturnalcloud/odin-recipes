@@ -48,7 +48,7 @@ li {
 }
 
 .selected:hover {
-    background-blend-mode: normal;
+    background-color: pink;
     color: black;
 }
 
