@@ -1,8 +1,9 @@
 .card {
     margin: 0 auto;
-    width: 500px;
-    height: 550px;
+    width: 100%;
+    height: auto;
     background-color: palevioletred;
+    padding: 2px 5px;
     
 }
 
@@ -25,7 +26,7 @@
 
 #pasta {
     background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F960901.jpg&q=60&c=sc&poi=auto&orient=true&h=512");
-    background-position: bottom;
+    background-position: 25% 75%;
 
 }
 h1 {
@@ -40,7 +41,7 @@ h1 {
 li {
     
     text-align: center;
-    width: 480px;
+    width: 100%;
     list-style: none;
     margin: 10px auto;
     padding: 60px 0px;
