@@ -8,7 +8,7 @@
 }
 
 .muted {
-  background-color: rgb(126 91 108 / 50%);;
+  background-color: rgb(126 91 108 / 50%);
   background-blend-mode: saturation;
   background-size: cover;
 }
@@ -45,8 +45,11 @@ li {
     list-style: none;
     margin: 10px auto;
     padding: 60px 0px;
-    background-color: lightgoldenrodyellow;
+}
 
+.selected:hover {
+    background-blend-mode: normal;
+    color: black;
 }
 
 a {
